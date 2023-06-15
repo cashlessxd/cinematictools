@@ -1,0 +1,17 @@
+{
+  "controllerInput": {
+      "leftStickX": 0.0,
+      "leftStickY": 0.4,
+      "rightStickX": 0.0,
+      "rightStickY": 0.4
+  },
+  "cameraSettings": {
+    "coolDownDuration": 0.5,
+    "movementLength": 1.0,
+    "refocusEnabled": true
+  },
+  "videoSettings": {
+    "framesPerSecond": 30,
+    "videoLength": 1
+  }
+}
