@@ -24,7 +24,7 @@ def run():
             if cam.refocusEnabled:
                 focusCamera(gamepad)
             createFrame(sct, frame)
-
+            print ('Frame Created: ' + str(frame + 1) + ' of ' + str(amountFrames))
     createVideo(amountFrames, clipPath)
 
     shutil.rmtree('frames')
@@ -59,7 +59,6 @@ def createVideo(amountFrames, clipPath):
     clipNumber = 1
 
     for file in os.listdir(clipPath):
-        print(file)
         clipNumber += 1
 
     for frameNumber in range(amountFrames):
